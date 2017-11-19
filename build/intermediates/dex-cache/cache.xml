@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\Bless\.android\build-cache\4b3aa5c4e5d64678a933864d492ebc1ab6466b7c\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f02263e35e52668dd17b73bf961437e3d562b35f">
+        <dex dex="C:\Users\Bless\Downloads\Emem_downloads\androidVNC-master\app\build\intermediates\pre-dexed\debug\classes_0a514cd6f519b076f21801ce315db4fd48cfc8a5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Bless\.android\build-cache\5c469a20efb293ba96df56b161aafcc1d689e231\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="aee64634871d88a419d59eb743c1258a60f19700">
+        <dex dex="C:\Users\Bless\Downloads\Emem_downloads\androidVNC-master\app\build\intermediates\pre-dexed\debug\classes_26fe16d0a0131f0ac4d675e38d3631e7aa1118f4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Bless\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.1.0\support-annotations-25.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="64cb6b229a8bdfd907bc8dd46839a0053e4c018d">
+        <dex dex="C:\Users\Bless\Downloads\Emem_downloads\androidVNC-master\app\build\intermediates\pre-dexed\debug\support-annotations-25.1.0_3cf75a96b8c621fcef2f236dcbc93d9cdce7cc7b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Bless\.android\build-cache\c5cb767b8418d114af100e7b02d2ad61529adf28\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e79aa3d9a16f8c9f16377c0608de70a8f31e5d80">
+        <dex dex="C:\Users\Bless\Downloads\Emem_downloads\androidVNC-master\app\build\intermediates\pre-dexed\debug\classes_3c14a0f1a8b1cc62fa93cfb045286b6eb74af039.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Bless\.android\build-cache\7e070a9e0a334acb6f1b9ca9cebd8d8874abacf7\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="2a53c4f3518116b8c6aee0e477233f0f7da8616f">
+        <dex dex="C:\Users\Bless\Downloads\Emem_downloads\androidVNC-master\app\build\intermediates\pre-dexed\debug\classes_757f7e32c40eacdfac1c8b39703ba6c4ce300214.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Bless\Downloads\Emem_downloads\androidVNC-master\app\libs\com.antlersoft.android.contentxml.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="0430d5248664e4f08d8b150bb5a9d947767a94ba">
+        <dex dex="C:\Users\Bless\Downloads\Emem_downloads\androidVNC-master\app\build\intermediates\pre-dexed\debug\com.antlersoft.android.contentxml_3a25944307aa2ef5ab3903c4a35df1f51fcb42c0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Bless\.android\build-cache\4afe2ed82f7b82b9974753759dc136ec2b85bce1\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6fb6ac3e8d3b9013819920d9ea11f3803c4c0033">
+        <dex dex="C:\Users\Bless\Downloads\Emem_downloads\androidVNC-master\app\build\intermediates\pre-dexed\debug\classes_efe8f6cb529ec7d2f92f8a2136e7fdad40a78269.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Bless\.android\build-cache\ba3ca30f87ec5786e02b60db27feeb0a1425409c\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\Bless\Downloads\Emem_downloads\androidVNC-master\app\build\intermediates\pre-dexed\debug\classes_94377db086a99d625799f259f9e795be85305e3a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Bless\.android\build-cache\4146e5a5a8c9326b3981b4212b2e7f1204abd40e\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="0a0ef86b7fa568a52bf6214a0326ca1f1d618da7">
+        <dex dex="C:\Users\Bless\Downloads\Emem_downloads\androidVNC-master\app\build\intermediates\pre-dexed\debug\classes_b0b5c809fc660c7c72d09f4b3e5e2903f85d1414.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Bless\.android\build-cache\f18498a17325e7ab9a740883b3f91903f907f62b\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="1630658fbc2d222b988603c27b4a4249586fbfe7">
+        <dex dex="C:\Users\Bless\Downloads\Emem_downloads\androidVNC-master\app\build\intermediates\pre-dexed\debug\classes_ab4adea92fdc0a81b83fa3fbb0de67f8c64b74bb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Bless\.android\build-cache\db774196b3d565b913f5eb048f858c753c81fe0a\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="0e753ea8d0a2dea270da7d96a7d6e9d2e9c10f94">
+        <dex dex="C:\Users\Bless\Downloads\Emem_downloads\androidVNC-master\app\build\intermediates\pre-dexed\debug\classes_3fa5f224cb4e50f23180d6e2efede2a035032b3b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Bless\Downloads\Emem_downloads\androidVNC-master\app\libs\com.antlersoft.android.db.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="22b26205ed95ecc9ff1e029024b3187ca0fd86b6">
+        <dex dex="C:\Users\Bless\Downloads\Emem_downloads\androidVNC-master\app\build\intermediates\pre-dexed\debug\com.antlersoft.android.db_df345cb7047605e117196619ee8fbeb8e888f19d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Bless\AppData\Local\Android\sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.0-alpha8\constraint-layout-solver-1.0.0-alpha8.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="80c371a4fd5e1b77f0e3a25b171356878543ffdd">
+        <dex dex="C:\Users\Bless\Downloads\Emem_downloads\androidVNC-master\app\build\intermediates\pre-dexed\debug\constraint-layout-solver-1.0.0-alpha8_5165a6c0f5cb6ccea2d4ed0ea0273e2fd6c45370.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Bless\Downloads\Emem_downloads\androidVNC-master\zoomerWithKeys\build\intermediates\bundles\default\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ffab8d4dac81b912d5f431f2104ecb93a9519e79">
+        <dex dex="C:\Users\Bless\Downloads\Emem_downloads\androidVNC-master\app\build\intermediates\pre-dexed\debug\classes_a1c33bb27e93723a649b80a9dca68a9d345c65d1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Bless\.android\build-cache\ab96e87db04195d1b4f4fbd68cc154a38d225609\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ca3c7aa31e2726a400a6e552b93cb9f63c9a1e6d">
+        <dex dex="C:\Users\Bless\Downloads\Emem_downloads\androidVNC-master\app\build\intermediates\pre-dexed\debug\classes_75cb6b9dcf99bcb111f2ce7760c49e42ba3a4b18.jar" />
+    </item>
+
+</items>

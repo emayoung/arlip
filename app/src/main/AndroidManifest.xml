@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="android.androidVNC"
+    android:versionCode="13"
+    android:versionName="0.5.0">
+
+    <uses-sdk
+        android:minSdkVersion="3"
+        android:targetSdkVersion="4" />
+	<uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <supports-screens android:anyDensity="true" />
+
+    <permission
+        android:name="com.offsec.nhvnc.permission.OPEN_VNC_CONN"
+        android:description="@string/permdesc_open_vnc_conn"
+        android:label="Open direct VNC connections"
+        android:permissionGroup="android.permission-group.SYSTEM_TOOLS"
+        android:protectionLevel="dangerous" />
+
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:icon="@drawable/icon"
+        android:theme="@style/AppTheme"
+		android:label="@string/app_name">
+        <activity
+            android:name=".androidVNC"
+            android:label="@string/app_name"
+            android:screenOrientation="sensorLandscape"></activity>
+        <activity
+            android:name=".VncCanvasActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="sensorLandscape">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:scheme="vnc" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ConnectionListActivity"
+            android:label="@string/shortcut_label">
+            <intent-filter>
+                <action android:name="android.intent.action.CREATE_SHORTCUT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".arlip.Demo2Activity">
+        </activity>
+		
+		<activity
+            android:name=".ui.SplashScreenActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".arlip.AskQuestionActivity"></activity>
+		<activity android:name=".ui.ControlPhoneActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.HOME" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+		<activity android:name=".ui.MainActivity"> </activity>
+
+        <service android:name=".service.ControlService" />
+
+        <activity android:name=".ui.ChatActivity" />
+        <activity android:name=".ui.QuestionsActivity" />
+        <activity android:name=".ui.HomeActivity" />
+    </application>
+
+</manifest>

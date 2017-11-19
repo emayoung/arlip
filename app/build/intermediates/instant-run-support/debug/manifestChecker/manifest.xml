@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.offsec.nhvnc"
+    android:versionCode="13"
+    android:versionName="0.5.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="26" />
+
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <supports-screens android:anyDensity="true" />
+
+    <permission
+        android:name="com.offsec.nhvnc.permission.OPEN_VNC_CONN"
+        android:description="@string/permdesc_open_vnc_conn"
+        android:label="Open direct VNC connections"
+        android:permissionGroup="android.permission-group.SYSTEM_TOOLS"
+        android:protectionLevel="dangerous" />
+
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:debuggable="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:testOnly="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="android.androidVNC.androidVNC"
+            android:label="@string/app_name"
+            android:screenOrientation="sensorLandscape" />
+        <activity
+            android:name="android.androidVNC.VncCanvasActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="sensorLandscape" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:scheme="vnc" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="android.androidVNC.ConnectionListActivity"
+            android:label="@string/shortcut_label" >
+            <intent-filter>
+                <action android:name="android.intent.action.CREATE_SHORTCUT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="android.androidVNC.arlip.Demo2Activity" >
+        </activity>
+        <activity
+            android:name="android.androidVNC.ui.SplashScreenActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="android.androidVNC.arlip.AskQuestionActivity" />
+        <activity android:name="android.androidVNC.ui.ControlPhoneActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.HOME" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="android.androidVNC.ui.MainActivity" >
+        </activity>
+
+        <service android:name="android.androidVNC.service.ControlService" />
+
+        <activity android:name="android.androidVNC.ui.ChatActivity" />
+        <activity android:name="android.androidVNC.ui.QuestionsActivity" />
+        <activity android:name="android.androidVNC.ui.HomeActivity" />
+
+        <meta-data
+            android:name="android.support.VERSION"
+            android:value="26.1.0" />
+        <meta-data
+            android:name="android.arch.lifecycle.VERSION"
+            android:value="27.0.0-SNAPSHOT" />
+
+        <provider
+            android:name="com.android.tools.ir.server.InstantRunContentProvider"
+            android:authorities="com.offsec.nhvnc.com.android.tools.ir.server.InstantRunContentProvider"
+            android:multiprocess="true" />
+    </application>
+
+</manifest>
